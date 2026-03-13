@@ -1,1 +1,0 @@
-<img src="backtothefuture.jpg" alt="Retour vers 2021" id="retourvers2021" align="left"/>
