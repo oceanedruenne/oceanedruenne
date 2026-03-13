@@ -55,7 +55,6 @@ const T = {
     experience:[
       { company:"Alcatel-Lucent Enterprise", role:"Ingénieure logiciel apprentie", period:"Sept 2024 – Aujourd'hui", location:"Strasbourg, France", tasks:["Amélioration d'un service d'enregistrement d'appels WebRTC P2P.","Résolution de tickets via YouTrack (Angular, WebRTC API)."] },
       { company:"IRCAD", role:"Développeuse Full-Stack (stage)", period:"2023", location:"Strasbourg, France", tasks:["ChatBot de réponse aux questions utilisateurs (NextJS, SCSS, Levenshtein).","Nouveau site WebSurg & back-office (NextJS, TailwindCSS, Symfony).","AudioForm : gestion des demandes de montage vidéo.","WhiteBox : analyse de périphériques USB.","Gesture Navigator : app web interactive avec webcam (MediaPipe).","Campagnes de phishing avec Gophish."] },
-      { company:"Freelance", role:"Développeuse Web", period:"2021 – 2023", location:"Remote", tasks:["Diverses missions de développement web (FreeBeings, TDF, Upwork, Shoppy)."] },
     ],
     education:[
       { school:"CNAM – Conservatoire National des Arts et Métiers", degree:"Diplôme d'ingénieur en informatique", period:"Sept 2024 – Aujourd'hui", location:"Strasbourg, France", details:["Angular & TypeScript","Développement GUI en C++","Jeux vidéo avec Unity, C# et C"] },
@@ -88,7 +87,6 @@ const T = {
     experience:[
       { company:"Alcatel-Lucent Enterprise", role:"Étidyan-travayè an jéni lojisyèl", period:"Sept 2024 – Jòdi", location:"Strasbourg, Frans", tasks:["Amélyorasyon on sèvis anrejistreman apèl WebRTC P2P.","Rézolusyon tiké épi YouTrack (Angular, WebRTC API)."] },
       { company:"IRCAD", role:"Devlopè Full-Stack (staj)", period:"2023", location:"Strasbourg, Frans", tasks:["ChatBot pou réponsé kèsyon itilizatè (NextJS, SCSS, Levenshtein).","Nouvo sit WebSurg épi back-office (NextJS, TailwindCSS, Symfony).","AudioForm : jésyon dèmand montaj vidéo.","WhiteBox : anliz aparèy USB.","Gesture Navigator : applikasyon web entèraktif épi webcam (MediaPipe).","Kanpay phishing épi Gophish."] },
-      { company:"Fwéelans", role:"Devlopè Web", period:"2021 – 2023", location:"À distans", tasks:["Divès misyon devlopman web (FreeBeings, TDF, Upwork, Shoppy)."] },
     ],
     education:[
       { school:"CNAM – Konsérvàtwa Nasyon Zaz é Métié", degree:"Diplòm Jéniè an Enfòmatik", period:"Sept 2024 – Jòdi", location:"Strasbourg, Frans", details:["Angular & TypeScript","Devlopman GUI an C++","Jwé vidéo épi Unity, C# épi C"] },
