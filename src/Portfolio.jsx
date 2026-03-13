@@ -23,7 +23,6 @@ const T = {
     experience:[
       { company:"Alcatel-Lucent Enterprise", role:"Software Engineer Apprentice", period:"Sept 2024 – Present", location:"Strasbourg, France", tasks:["Improvement of a P2P WebRTC call recording service.","Resolving tickets with YouTrack (Angular, WebRTC API)."] },
       { company:"IRCAD", role:"Full-Stack Developer Intern", period:"2023", location:"Strasbourg, France", tasks:["ChatBot for user queries (NextJS, SCSS, Levenshtein).","New WebSurg website & back-office (NextJS, TailwindCSS, Symfony).","AudioForm: video editing request management app.","WhiteBox: USB device analysis web app.","Gesture Navigator: interactive webcam app with MediaPipe.","Phishing awareness campaigns with Gophish."] },
-      { company:"Freelance", role:"Web Developer", period:"2021 – 2023", location:"Remote", tasks:["Various web development missions (FreeBeings, TDF, Upwork, Shoppy)."] },
     ],
     education:[
       { school:"CNAM – National Conservatory of Arts and Crafts", degree:"Engineer's Degree in Computer Science", period:"Sept 2024 – Present", location:"Strasbourg, France", details:["Angular & TypeScript","C++ GUI development","Game dev with Unity, C# and C"] },
