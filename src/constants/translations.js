@@ -28,6 +28,7 @@ export const T = {
         tasks: [
           "Improvement of a P2P WebRTC call recording service.",
           "Resolving tickets with YouTrack (Angular, WebRTC API).",
+          "Improvements to a pop-up window that enables screen sharing of windows and applications on the desktop client using Electron and WebRTC."
         ],
       },
       {
@@ -44,13 +45,6 @@ export const T = {
           "Phishing awareness campaigns with Gophish.",
         ],
       },
-      {
-        company: "Freelance",
-        role: "Web Developer",
-        period: "2021 – 2023",
-        location: "Remote",
-        tasks: ["Various web development missions (FreeBeings, TDF, Upwork, Shoppy)."],
-      },
     ],
     education: [
       {
@@ -58,7 +52,7 @@ export const T = {
         degree: "Engineer's Degree in Computer Science",
         period: "Sept 2024 – Present",
         location: "Strasbourg, France",
-        details: ["Angular & TypeScript", "C++ GUI development", "Game dev with Unity, C# and C"],
+        details: ["Angular & TypeScript", "C++ GUI development", "Game dev with Unity, C# and C", "Databases creation and management with SQL "],
       },
       {
         school: "IUT",
@@ -72,7 +66,7 @@ export const T = {
         degree: "Bachelor",
         period: "2020 – 2021",
         location: "Mulhouse, France",
-        details: [],
+        details: ["Skill enhancement in various areas and languages (WordPress, PHP, SQL, HTML, web design)"],
       },
     ],
     projects: [
@@ -118,6 +112,7 @@ export const T = {
         tasks: [
           "Amélioration d'un service d'enregistrement d'appels WebRTC P2P.",
           "Résolution de tickets via YouTrack (Angular, WebRTC API).",
+          "Amélioration d'une pop-up permettant le partage d'écran des fenêtres et d'applications sur le client lourd avec Electron et WebRTC.",
         ],
       },
       {
@@ -134,13 +129,6 @@ export const T = {
           "Campagnes de phishing avec Gophish.",
         ],
       },
-      {
-        company: "Freelance",
-        role: "Développeuse Web",
-        period: "2021 – 2023",
-        location: "Remote",
-        tasks: ["Diverses missions de développement web (FreeBeings, TDF, Upwork, Shoppy)."],
-      },
     ],
     education: [
       {
@@ -148,7 +136,7 @@ export const T = {
         degree: "Diplôme d'ingénieur en informatique",
         period: "Sept 2024 – Aujourd'hui",
         location: "Strasbourg, France",
-        details: ["Angular & TypeScript", "Développement GUI en C++", "Jeux vidéo avec Unity, C# et C"],
+        details: ["Angular & TypeScript", "Développement GUI en C++", "Jeux vidéo avec Unity, C# et C","Création et gestion de bases de données avec SQL"],
       },
       {
         school: "IUT",
@@ -162,7 +150,7 @@ export const T = {
         degree: "Licence",
         period: "2020 – 2021",
         location: "Mulhouse, France",
-        details: [],
+        details: ["Remise à niveau dans différents domaines et langages (WordPress, PHP, SQL, HTML, création de maquettes)"],
       },
     ],
     projects: [
