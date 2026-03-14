@@ -87,7 +87,7 @@ export const T = {
     lang: "FR",
     greeting: "Salut, je suis",
     tagline: "Le titre dit apprentie. L'état d'esprit dit ingénieure.",
-    role: "Ingénieure logiciel en apprentissage chez",
+    role: "Apprentie ingénieure logiciel chez",
     scrollLabel: "DÉFILER",
     emailBtn: "Envoyer un email",
     linkedinBtn: "LinkedIn",
@@ -106,7 +106,7 @@ export const T = {
     experience: [
       {
         company: "Alcatel-Lucent Enterprise",
-        role: "Ingénieure logiciel apprentie",
+        role: "Apprentie ingénieure logiciel",
         period: "Sept 2024 – Aujourd'hui",
         location: "Strasbourg, France",
         tasks: [

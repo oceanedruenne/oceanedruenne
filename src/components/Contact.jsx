@@ -1,4 +1,5 @@
 import { COLORS } from "../constants/colors";
+import { IconEmail, IconLinkedin, IconGithub } from "./icons/Icons";
 import FadeIn from "./ui/FadeIn";
 
 export default function Contact({ t, isMobile, isTablet, sectionWrap }) {
