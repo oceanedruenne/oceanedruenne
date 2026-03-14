@@ -12,9 +12,9 @@ export default function Contact({ t, isMobile, isTablet, sectionWrap }) {
   });
 
   const buttons = [
-    { label: t.emailBtn,    color: COLORS.purple },
-    { label: t.linkedinBtn, color: COLORS.cyan },
-    { label: t.githubBtn,   color: COLORS.pink },
+    { label: t.emailBtn,    color: COLORS.purple, icon: <IconEmail />, href: "mailto:druenneoceane@gmail.com" },
+    { label: t.linkedinBtn, color: COLORS.cyan,   icon: <IconLinkedin />, href: "https://www.linkedin.com/in/oc%C3%A9ane-druenne-5933661ba/" },
+    { label: t.githubBtn,   color: COLORS.pink,   icon: <IconGithub />, href: "https://github.com/oceanedruenne" },
   ];
 
   return (
@@ -48,8 +48,8 @@ export default function Contact({ t, isMobile, isTablet, sectionWrap }) {
             {t.contactDesc}
           </p>
           <div style={{ display: "flex", gap: "10px", justifyContent: "center", flexWrap: "wrap" }}>
-            {buttons.map(({ label, color }) => (
-              <button key={label} className="btn" style={btnStyle(color)}>{label}</button>
+            {buttons.map(({ label, color, href }) => (
+              <a key={label} className="btn" href={href} target="_blank" rel="noopener noreferrer" style={btnStyle(color)}>{label}</a>
             ))}
           </div>
         </FadeIn>

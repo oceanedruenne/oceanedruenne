@@ -13,9 +13,9 @@ export default function Hero({ t, isMobile, px }) {
   });
 
   const ctaButtons = [
-    { label: t.emailBtn,    color: COLORS.purple, icon: <IconEmail /> },
-    { label: t.linkedinBtn, color: COLORS.cyan,   icon: <IconLinkedin /> },
-    { label: t.githubBtn,   color: COLORS.pink,   icon: <IconGithub /> },
+    { label: t.emailBtn,    color: COLORS.purple, icon: <IconEmail />, href: "mailto:druenneoceane@gmail.com" },
+    { label: t.linkedinBtn, color: COLORS.cyan,   icon: <IconLinkedin />, href: "https://www.linkedin.com/in/oc%C3%A9ane-druenne-5933661ba/" },
+    { label: t.githubBtn,   color: COLORS.pink,   icon: <IconGithub />, href: "https://github.com/oceanedruenne" },
   ];
 
   return (
@@ -57,10 +57,10 @@ export default function Hero({ t, isMobile, px }) {
         </p>
 
         <div className="h-cta" style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-          {ctaButtons.map(({ label, color, icon }) => (
-            <button key={label} className="btn" style={btnStyle(color, isMobile)}>
+          {ctaButtons.map(({ label, color, icon, href }) => (
+            <a key={label} className="btn" href={href} target="_blank" rel="noopener noreferrer" style={btnStyle(color, isMobile)}>
               {icon}{label}
-            </button>
+            </a>
           ))}
         </div>
       </div>
