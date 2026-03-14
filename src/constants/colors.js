@@ -13,4 +13,5 @@ export const COLORS = {
 export const GRADIENT =
   "linear-gradient(90deg, #9845e8 0%, #33d2ff 54%, #dd5789 100%)";
 
-export const LANG_FLAGS = { en: "🇬🇧", fr: "🇫🇷", cr: "🇲🇶" };
+// export const LANG_FLAGS = { en: "🇬🇧", fr: "🇫🇷", cr: "🇲🇶" };
+export const LANG_FLAGS = { en: "🇬🇧", fr: "🇫🇷" };
