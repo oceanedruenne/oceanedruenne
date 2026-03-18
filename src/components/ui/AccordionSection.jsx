@@ -1,6 +1,6 @@
 import FadeIn from "./FadeIn";
 import { IconChevron } from "../icons/Icons";
-import { useTheme } from "../../context/ThemeContext";
+import { useTheme } from "../../context/ThemeContext.jsx";
 
 export default function AccordionSection({ items, activeIdx, setActive, accentColor, renderContent, isMobile }) {
   const { colors } = useTheme();

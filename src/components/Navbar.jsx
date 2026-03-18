@@ -1,6 +1,6 @@
 import { GRADIENT, LANG_FLAGS } from "../constants/colors";
 import { T } from "../constants/translations";
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../context/ThemeContext.jsx";
 import { IconMenu, IconClose } from "./icons/Icons";
 
 const IconSun = () => (

@@ -1,5 +1,5 @@
 import { GRADIENT } from "../constants/colors";
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../context/ThemeContext.jsx";
 import { IconEmail, IconLinkedin, IconGithub } from "./icons/Icons";
 
 export default function Hero({ t, isMobile, px }) {

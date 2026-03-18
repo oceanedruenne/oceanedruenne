@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { GRADIENT } from "./constants/colors";
 import { T } from "./constants/translations";
 import { useWindowWidth } from "./hooks/useWindowWidth";
-import { ThemeProvider, useTheme } from "./context/ThemeContext";
+import { ThemeProvider, useTheme } from "./context/ThemeContext.jsx";
 import FadeIn from "./components/ui/FadeIn";
 import Navbar     from "./components/Navbar";
 import Hero       from "./components/Hero";

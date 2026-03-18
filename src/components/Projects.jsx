@@ -1,4 +1,4 @@
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../context/ThemeContext.jsx";
 import FadeIn from "./ui/FadeIn";
 import TechBadge from "./ui/TechBadge";
 import { IconGitlab } from "./icons/Icons";

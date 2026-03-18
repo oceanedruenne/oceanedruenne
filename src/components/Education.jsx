@@ -1,4 +1,4 @@
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../context/ThemeContext.jsx";
 import AccordionSection from "./ui/AccordionSection";
 
 export default function Education({ t, activeEdu, setActiveEdu, isMobile, sectionWrap, sectionHeader }) {

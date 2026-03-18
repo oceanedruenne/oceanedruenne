@@ -1,4 +1,4 @@
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../context/ThemeContext.jsx";
 import AccordionSection from "./ui/AccordionSection";
 
 export default function Experience({ t, activeExp, setActiveExp, isMobile, sectionWrap, sectionHeader }) {
