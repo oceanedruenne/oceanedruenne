@@ -1,7 +1,7 @@
 import { useTheme } from "../context/ThemeContext.jsx";
 import FadeIn from "./ui/FadeIn";
 import TechBadge from "./ui/TechBadge";
-import { IconGitlab } from "./icons/Icons";
+import { IconGitlab, IconGithub } from "./icons/Icons";
 
 export default function Projects({ t, filter, setFilter, isMobile, isTablet, sectionWrap, sectionHeader }) {
   const { colors } = useTheme();
@@ -47,14 +47,24 @@ export default function Projects({ t, filter, setFilter, isMobile, isTablet, sec
               <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
                 {project.tech.map(tech => <TechBadge key={tech} tech={tech} color={project.color} />)}
               </div>
-              {project.gitlab && (
-                <a href={project.gitlab} target="_blank" rel="noopener noreferrer"
-                  style={{ fontSize: "12px", color: colors.muted, textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "6px" }}
-                  onMouseEnter={e => e.currentTarget.style.color = colors.text}
-                  onMouseLeave={e => e.currentTarget.style.color = colors.muted}>
-                  <IconGitlab />{t.gitlabLink}
-                </a>
-              )}
+              <div style={{ display: "flex", gap: "12px" }}>
+                {project.gitlab && (
+                  <a href={project.gitlab} target="_blank" rel="noopener noreferrer"
+                    style={{ fontSize: "12px", color: colors.muted, textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "6px" }}
+                    onMouseEnter={e => e.currentTarget.style.color = colors.text}
+                    onMouseLeave={e => e.currentTarget.style.color = colors.muted}>
+                    <IconGitlab /> GitLab
+                  </a>
+                )}
+                {project.github && (
+                  <a href={project.github} target="_blank" rel="noopener noreferrer"
+                    style={{ fontSize: "12px", color: colors.muted, textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "6px" }}
+                    onMouseEnter={e => e.currentTarget.style.color = colors.text}
+                    onMouseLeave={e => e.currentTarget.style.color = colors.muted}>
+                    <IconGithub /> GitHub
+                  </a>
+                )}
+              </div>
             </div>
           </FadeIn>
         ))}
