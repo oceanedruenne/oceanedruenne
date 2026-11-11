@@ -21,6 +21,17 @@ export const T = {
     categories: ["All", "Web", "Mobile", "Desktop", "Game", "AI / CLI"],
     experience: [
       {
+        company: "Tokyo Innovation Base (TIB)",
+        role: "Web Development Engineer Intern",
+        period: "June – Sept 2026",
+        location: "Ginza, Tokyo, Japan",
+        tasks: [
+          "Full-stack development with a Node.js backend.",
+          "Website redesign: migration from PHP to React.",
+          "Team and project management.",
+        ],
+      },
+      {
         company: "Alcatel-Lucent Enterprise",
         role: "Software Engineer Apprentice",
         period: "Sept 2024 – Present",
@@ -100,6 +111,17 @@ export const T = {
     gitlabLink: "GitLab",
     categories: ["Tous", "Web", "Mobile", "Desktop", "Jeu", "IA / CLI"],
     experience: [
+      {
+        company: "Tokyo Innovation Base (TIB)",
+        role: "Stagiaire ingénieure en développement web",
+        period: "Juin – Sept 2026",
+        location: "Ginza, Tokyo, Japon",
+        tasks: [
+          "Développement full-stack avec un backend Node.js.",
+          "Refonte du site : migration de PHP vers React.",
+          "Gestion d'équipe et de projet.",
+        ],
+      },
       {
         company: "Alcatel-Lucent Enterprise",
         role: "Apprentie ingénieure logiciel",
